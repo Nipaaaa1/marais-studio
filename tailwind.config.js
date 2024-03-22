@@ -15,6 +15,10 @@ export default {
         white: "#F9FBFA",
         black: "#0D120F",
       },
+      fontFamily: {
+        "hanken-grotesk": ["Hanken Grotesk", "sans-serif"],
+        "bebas-neue": ["Bebas Neue", "sans-serif"],
+      },
     },
   },
   plugins: [],
