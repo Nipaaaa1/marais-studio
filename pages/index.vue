@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <h1>Hello World</h1>
+  <div class="relative min-h-svh bg-white">
+    <Navigation />
   </div>
 </template>
