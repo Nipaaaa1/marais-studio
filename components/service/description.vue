@@ -8,7 +8,7 @@ defineProps<{
 <template>
   <div class="space-y-3">
     <h3 class="text-lg">{{ title }}</h3>
-    <p class="w-[20.0625rem] text-black/80">
+    <p class="text-black/80">
       {{ description }}
     </p>
   </div>
