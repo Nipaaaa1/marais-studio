@@ -4,7 +4,9 @@
   >
     <Navigation />
     <Hero />
-    <main class="md:px-desktop flex flex-col gap-16 px-6 py-16 md:py-32">
+    <main
+      class="md:px-desktop flex flex-col gap-16 px-6 py-16 md:gap-32 md:py-32"
+    >
       <About />
       <Services />
       <Works />
