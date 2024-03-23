@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      padding: {
+        desktop: "8.125rem",
+      },
       colors: {
         primary: "#04471C",
         white: "#F9FBFA",

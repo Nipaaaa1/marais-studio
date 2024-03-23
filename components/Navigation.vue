@@ -13,7 +13,7 @@ onClickOutside(nav, () => {
 
 <template>
   <nav
-    class="fixed top-0 z-20 flex w-full items-center justify-between p-6 mix-blend-difference invert md:px-[8.125rem]"
+    class="md:px-desktop fixed top-0 z-20 flex w-full items-center justify-between p-6 mix-blend-difference invert"
   >
     <span class="font-bebas-neue text-4xl">Marais Studio</span>
     <svg
