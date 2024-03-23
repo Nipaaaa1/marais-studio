@@ -7,6 +7,7 @@
     <main class="flex flex-col gap-16 px-6 py-16">
       <About />
       <Services />
+      <Works />
     </main>
   </div>
 </template>
