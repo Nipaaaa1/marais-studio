@@ -13,7 +13,7 @@ onClickOutside(nav, () => {
 
 <template>
   <nav
-    class="fixed top-0 z-10 flex w-full items-center justify-between p-6 mix-blend-difference invert"
+    class="fixed top-0 z-20 flex w-full items-center justify-between p-6 mix-blend-difference invert"
   >
     <span class="font-bebas-neue text-4xl">Marais Studio</span>
     <svg
@@ -49,7 +49,7 @@ onClickOutside(nav, () => {
   <div
     ref="nav"
     v-if="menu"
-    class="fixed left-6 right-6 top-24 z-10 flex justify-center rounded-lg bg-white py-12"
+    class="fixed left-6 right-6 top-24 z-20 flex justify-center rounded-lg bg-white py-12"
   >
     <ul class="space-y-6 text-center *:text-lg">
       <li>About</li>
