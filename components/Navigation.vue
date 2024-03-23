@@ -59,7 +59,7 @@ onClickOutside(nav, () => {
   <div
     ref="nav"
     v-if="menu"
-    class="fixed left-6 right-6 top-24 z-20 flex justify-center rounded-lg bg-white py-12"
+    class="fixed left-6 right-6 top-24 z-20 flex justify-center rounded-lg bg-white py-12 md:hidden"
   >
     <ul class="space-y-6 text-center *:text-lg">
       <li>About</li>
