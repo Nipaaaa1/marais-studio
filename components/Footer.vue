@@ -1,5 +1,5 @@
 <template>
-  <footer class="px-desktop w-full space-y-6 bg-black p-6 md:space-y-12">
+  <footer class="md:px-desktop w-full space-y-6 bg-black p-6 md:space-y-12">
     <div class="flex items-center gap-3 md:gap-6">
       <span class="footer-title font-bebas-neue text-2xl md:text-desktop-2xl"
         >Marais Studio</span
