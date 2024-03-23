@@ -7,9 +7,10 @@
 
     <div class="space-y-8">
       <Service>
-        <ServiceImage
-          src="_nuxt/assets/images/mobile/laptop.png"
+        <img
+          src="/public/images/mobile/laptop.png"
           alt="A laptop on table"
+          class="h-max w-full"
         />
         <ServiceDescription
           title="Web Design"
@@ -20,9 +21,10 @@
                 Achievement."
         />
       </Service>
-      <ServiceImage
-        src="_nuxt/assets/images/mobile/coding.png"
+      <img
+        src="/public/images/mobile/coding.png"
         alt="A person coding on a laptop"
+        class="h-max w-full"
       />
       <ServiceDescription
         title="Web Development"

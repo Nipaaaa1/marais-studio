@@ -7,7 +7,7 @@
       brands.
     </SectionTitle>
     <img
-      src="/assets/images/mobile/meeting.png"
+      src="/public/images/mobile/meeting.png"
       alt="People's meeting at work"
       class="h-max w-full"
     />
@@ -23,7 +23,7 @@
       </p>
       <a
         href="#"
-        class="text-primary border-primary flex w-max items-center border-b"
+        class="flex w-max items-center border-b border-primary text-primary"
       >
         How we Work <IconsArrowRight />
       </a>

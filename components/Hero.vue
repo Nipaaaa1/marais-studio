@@ -1,7 +1,7 @@
 <template>
   <header class="relative">
     <img
-      src="/assets/images/mobile/hero.png"
+      src="/public/images/mobile/hero.png"
       alt="A man using laptop"
       class="h-max w-full"
     />

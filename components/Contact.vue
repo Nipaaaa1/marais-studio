@@ -2,7 +2,7 @@
   <Section>
     <div class="flex flex-col gap-3">
       <img
-        src="/assets/images/mobile/lamp.png"
+        src="/public/images/mobile/lamp.png"
         alt="A hand holding a lamp"
         class="h-max w-full"
       />
