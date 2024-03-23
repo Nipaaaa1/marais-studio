@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative min-h-svh bg-white font-hanken-grotesk text-md text-black"
+    class="relative min-h-svh bg-white font-hanken-grotesk text-md text-black md:text-desktop-md"
   >
     <Navigation />
     <Hero />

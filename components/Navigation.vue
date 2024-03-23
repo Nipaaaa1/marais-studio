@@ -13,12 +13,12 @@ onClickOutside(nav, () => {
 
 <template>
   <nav
-    class="fixed top-0 z-20 flex w-full items-center justify-between p-6 mix-blend-difference invert"
+    class="fixed top-0 z-20 flex w-full items-center justify-between p-6 mix-blend-difference invert md:px-[8.125rem]"
   >
     <span class="font-bebas-neue text-4xl">Marais Studio</span>
     <svg
       v-if="menu"
-      class="cursor-pointer"
+      class="cursor-pointer mix-blend-difference invert md:hidden"
       xmlns="http://www.w3.org/2000/svg"
       width="43"
       height="43"
@@ -32,7 +32,7 @@ onClickOutside(nav, () => {
     </svg>
     <svg
       v-else
-      class="cursor-pointer mix-blend-difference invert"
+      class="cursor-pointer mix-blend-difference invert md:hidden"
       width="43"
       height="43"
       viewBox="0 0 43 43"
@@ -45,6 +45,16 @@ onClickOutside(nav, () => {
         fill="#F9FBFA"
       />
     </svg>
+    <ul
+      class="hidden items-center gap-6 text-center *:cursor-pointer *:text-lg md:flex"
+    >
+      <li>About</li>
+      <li>Services</li>
+      <li>Works</li>
+      <li class="rounded-lg bg-black px-[0.875rem] py-[0.625rem] text-white">
+        Contact Us
+      </li>
+    </ul>
   </nav>
   <div
     ref="nav"
