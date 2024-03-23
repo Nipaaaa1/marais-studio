@@ -6,8 +6,8 @@ defineProps<{
 
 <template>
   <div>
-    <span>{{ name }}</span>
-    <h2 class="font-bebas-neue text-xl">
+    <span class="md:max-w-[48.75rem]">{{ name }}</span>
+    <h2 class="font-bebas-neue text-xl md:text-desktop-xl">
       <slot />
     </h2>
   </div>
