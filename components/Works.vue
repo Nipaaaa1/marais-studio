@@ -5,26 +5,34 @@
       Visionaries
     </SectionTitle>
     <div class="grid grid-cols-1 gap-3">
-      <Cards
-        src="_nuxt/public/images/mobile/wave.png"
-        alt="Wave's Website"
-        title="Wave"
-      />
-      <Cards
-        src="_nuxt/public/images/mobile/reflecta.png"
-        alt="Reflecta's Website"
-        title="Reflecta"
-      />
-      <Cards
-        src="_nuxt/public/images/mobile/solo.png"
-        alt="solo's Website"
-        title="solo"
-      />
-      <Cards
-        src="_nuxt/public/images/mobile/dappr.png"
-        alt="dappr's Website"
-        title="dappr"
-      />
+      <Cards title="wave">
+        <img
+          src="/public/images/mobile/wave.png"
+          alt="wave's Website"
+          class="h-max w-full"
+        />
+      </Cards>
+      <Cards title="reflecta">
+        <img
+          src="/public/images/mobile/reflecta.png"
+          alt="reflecta's Website"
+          class="h-max w-full"
+        />
+      </Cards>
+      <Cards title="solo">
+        <img
+          src="/public/images/mobile/solo.png"
+          alt="solo's Website"
+          class="h-max w-full"
+        />
+      </Cards>
+      <Cards title="dappr">
+        <img
+          src="/public/images/mobile/dappr.png"
+          alt="dappr's Website"
+          class="h-max w-full"
+        />
+      </Cards>
     </div>
   </Section>
 </template>
