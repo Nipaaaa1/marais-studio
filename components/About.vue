@@ -1,5 +1,5 @@
 <template>
-  <Section class="md:pl-[6.25rem] md:pr-[12.5rem]">
+  <Section class="md:pl-[6.25rem] md:pr-[12.5rem]" id="about">
     <SectionTitle name="01 - About Us">
       Crafting
       <span class="text-primary"> exceptional products </span>that resonate with

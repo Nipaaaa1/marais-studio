@@ -1,5 +1,5 @@
 <template>
-  <Section class="md:pl-[6.25rem] md:pr-[12.5rem]">
+  <Section class="md:pl-[6.25rem] md:pr-[12.5rem]" id="services">
     <SectionTitle name="02 - Services">
       Marais Studio Specialize in
       <span class="text-primary"> websites </span> for a leading companies

@@ -6,15 +6,15 @@
       >
       <div class="flex flex-col gap-2 text-white md:gap-3">
         <span>Zurich, Switzerland</span>
-        <span class="flex items-center"
+        <a href="#header" class="flex items-center"
           >Back to Top <IconsArrowUp class="h-full w-max"
-        /></span>
+        /></a>
       </div>
     </div>
     <ul class="space-y-3 text-white">
-      <li>About Us</li>
-      <li>Services</li>
-      <li>Works</li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#works">Works</a></li>
     </ul>
     <div class="flex justify-between text-sm text-white md:text-desktop-sm">
       <span>Copyright 2024</span>

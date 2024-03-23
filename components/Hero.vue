@@ -1,5 +1,5 @@
 <template>
-  <header class="relative">
+  <header id="header" class="relative">
     <img
       src="/public/images/mobile/hero.png"
       alt="A man using laptop"

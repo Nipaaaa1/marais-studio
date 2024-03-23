@@ -1,5 +1,5 @@
 <template>
-  <Section>
+  <Section id="works">
     <SectionTitle name="03 - Works">
       <span class="text-primary">Collaborating</span> with Purposeful Tech
       Visionaries
